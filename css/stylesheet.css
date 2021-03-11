@@ -15,6 +15,20 @@ header{
     background-color: #A6CAD4;
 }
 
+nav{
+    list-style-type: none;
+    display:inline
+}
+
+a{
+    display:inline
+}
+
 .heading-index{
     font-family: 'Montserrat', sans-serif
+}
+
+.copyright{
+    text-align: center;
+    background-color: #A6CAD4;
 }
