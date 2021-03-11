@@ -1,5 +1,5 @@
 body{
-background-color: #06ddb1;
+background-color: #EDDDD0;
 }
 
 h1{
@@ -10,11 +10,11 @@ span{
     display: block;
 }
 
-nav{
+header{
     text-align: center;
-    background-color: lightblue;
+    background-color: #A6CAD4;
 }
 
 .heading-index{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif
 }
