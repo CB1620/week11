@@ -1,27 +1,35 @@
 body{
-background-color: #EDDDD0;
+
+
+    background-color: #Edddd0;
+
 }
 
 h1{
 color: #002199;
 }
 
-span{
-    display: block;
+main{
+    display: inline;
 }
 
 header{
     text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
     background-color: #A6CAD4;
 }
 
-nav{
+header ul{
     list-style-type: none;
-    display:inline
-}
+    text-align: center;
+    display: inline;
 
-a{
-    display:inline
+}
+ul li{
+
+    display:inline;
 }
 
 .heading-index{
@@ -31,4 +39,9 @@ a{
 .copyright{
     text-align: center;
     background-color: #A6CAD4;
+}
+
+aside{
+    text-align: right;
+    padding:50px;
 }
