@@ -45,3 +45,14 @@ aside{
     text-align: right;
     padding:50px;
 }
+
+.course{
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 3 1fr;
+    border-bottom: 1px solid black;
+}
+
+.date{
+    grid-row: 1;
+}
