@@ -1,8 +1,10 @@
 body{
 
-
     background-color: #Edddd0;
-
+    min-height: 100%;
+}
+html {
+    height: 100%;
 }
 
 h1{
@@ -46,13 +48,59 @@ aside{
     padding:50px;
 }
 
-.course{
+.grid{
     display: grid;
-    grid-template-columns: 2 1fr;
-    grid-template-rows: 3 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.admin{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.date1{
+    grid-row: 2;
+    grid-column: 1;
     border-bottom: 1px solid black;
 }
 
-.date{
-    grid-row: 1;
+.web{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.date2{
+    grid-row: 4;
+    grid-column: 1;
+    border-bottom: 1px solid black;
+}
+
+.data{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.date3{
+    grid-row: 6;
+    grid-column: 1;
+    border-bottom: 1px solid black;
+}
+
+.admintxt{
+    grid-row: 2;
+    grid-column: 2;
+    border-bottom: 1px solid black;
+}
+
+.webtxt{
+    grid-row: 4;
+    grid-column: 2;
+    border-bottom: 1px solid black;
+}
+
+.datatxt{
+    grid-row: 6;
+    grid-column: 2;
+    border-bottom: 1px solid black;
 }
