@@ -22,12 +22,18 @@ while (isNaN (course) == true || course.length != 4) {
     course = prompt("Enter a valid course number");
 }
 
+let state = false;
+
 for (let i = 0; i < courseList.length; i++){
     if (course == courseList[i].code.split(" ")[1]){
         console.log("Yes, I am taking", courseList[i].code, "-", courseList[i].name);
-    }
-    else{
-        console.log("I am not takin");
+        state = true;
     }
 }
-
+if (state == false){
+    courseList.push({
+        code: course,
+        name: null,
+    })
+    console.log("Successfully added.");
+}
